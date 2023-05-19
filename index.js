@@ -66,7 +66,8 @@ app.post("/api/send", async (req, res) => {
     ">
     <strong>You subscribed to Spain travels!</strong>
     <p>
-       Follow us on: </br> <a href="https://mobile.twitter.com/travels_spain">Twitter</a> </br> <a href="https://www.facebook.com/profile.php?id=100082140622579">Facebook</a> </br> <a href="https://www.instagram.com/spaintravels96/">Instagram</a> </br> to stay up to date with our latest news. 
+       Follow us on: </br> <a href="https://mobile.twitter.com/">Twitter</a> </br> <a href="https://www.facebook.com">Facebook</a> </br> <a href="https://www.instagram.com/">Instagram</a> </br> to stay up to date with our latest news. 
+       
     </p>
     <p>All the best, Spain travels team.</p>
      </div>
