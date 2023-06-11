@@ -10,7 +10,7 @@ import {
 } from "../controllers/roomController.js";
 const router = express.Router();
 
-router.post("/", verifyAdmin , createRoom);
+router.post("/:hotelid", createRoom);
 
 router.put("/:id", updateRoom);
 router.put("/availibility/:id", updateRoomAvailability);
